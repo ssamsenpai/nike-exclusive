@@ -1,1 +1,377 @@
-!
+* {
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C9D6DF;
+    margin: 20px;
+    display: ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: -270px;
+}
+
+.navbar ul li a {
+    color: #1E2022;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #FD7328;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul .orange {
+    color: #FD7328;
+    text-decoration: underline 4px;
+}
+
+.navbar .cart {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-vertically: middle;
+
+}
+
+.navbar .cart .btn button {
+    width: 100px;
+    height: 35px;
+    background-color: #FD7328;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    vertical-align: middle;
+
+    text-align: center;
+}
+
+.navbar .cart .btn button:hover {
+    width: 100px;
+    height: 35px;
+    background-color: #f25500;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    vertical-align: middle;
+
+    text-align: center;
+}
+
+.navbar .cart .btn button span {
+    position: relative;
+    top: 4px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.navbar .cart img {
+    width: 38px;
+    height: 38px;
+    margin: 0;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    columns: 100px;
+    gap: 40px;
+    vertical-align: middle;
+    margin-top: 30px;
+    width: 80px;
+    margin-right: 0px !important;
+    border: 0px;
+    outline: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.side .home {
+    position: relative;
+    left: 15px;
+    margin: 0px;
+}
+
+.side .home p {
+    margin: 0;
+    font-weight: 500;
+    color: #FD7328;
+}
+
+.side .home span {
+    position: relative;
+    left: 12px;
+    color: #FD7328;
+}
+
+.side .account p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.side .account span {
+    position: relative;
+    left: 25px;
+}
+
+.side .settings p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.side .settings span {
+    position: relative;
+    left: 25px;
+}
+
+.side .help p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.side .help span {
+    position: relative;
+    left: 8px;
+}
+
+.side .help {
+    position: relative;
+    left: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.grid {
+    width: 100%;
+    height: 80%;
+    background-color: #ECF6FF;
+    display: grid;
+    gap: 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 20px;
+}
+
+.offer {
+    margin: 0px;
+    background-color: #FD7328;
+    border-radius: 30px;
+    position: relative;
+    ;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.fgrid {
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    gap: 20px;
+}
+
+.offer h1 {
+    margin: 0px;
+    padding: 20px;
+    width: 400px;
+    font-size: 50px;
+    color: #1E2022;
+    padding-bottom: 5px;
+}
+
+.offer h3 {
+    color: #d5d5d5;
+    padding: 20px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.offer .niko {
+    width: 100px;
+    position: absolute;
+    left: 100px;
+}
+
+.offer .jor {
+    width: 300px;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+.offer .jor:hover {
+    width: 400px;
+    position: absolute;
+    left: 350px;
+    top: -30px;
+}
+
+
+
+.offer button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #0F006C;
+    color: #d5d5d5;
+    font-size: large;
+    font-weight: bolder;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.offer button:hover {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #140097;
+    color: #d5d5d5;
+    font-size: large;
+    font-weight: bolder;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.run img {
+    width: 350px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+
+
+.run p {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #d5d5d5;
+    padding: 20px;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.run {
+    background-color: #474747;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+
+}
+
+.sgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 20px;
+
+}
+
+.sgrid .purple img {
+    width: 230px;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+.sgrid .blue img {
+    width: 210px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+.sgrid .red img {
+    width: 210px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.sgrid .discount img {
+    width: 270px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sgrid .discount {
+    margin: 0px;
+    padding: 0px;
+}
+
+.purple {
+    background-color: #8DE0B8;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.blue {
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.red {
+    background-color: #bdbdbd;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
